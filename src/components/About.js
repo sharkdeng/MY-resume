@@ -4,6 +4,7 @@ import Jumbotron from "react-bootstrap/Jumbotron";
 import Button from "react-bootstrap/Button";
 import { Container, Row, Col, Image } from "react-bootstrap";
 import "./About.css"
+import imgMe from "../../assets/imgs/me.jpg"
 
 class About extends Component {
     render() {
@@ -12,7 +13,7 @@ class About extends Component {
                 <Container>
                     <Row>
                         <Col xs={3}>
-                            <Image src="../../assets/imgs/me.jpg" roundedCircle />
+                            <Image src={imgMe} roundedCircle />
                         </Col>
                         <Col xs={9}>
                             <h1 className="header">About</h1>

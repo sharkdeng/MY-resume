@@ -1,6 +1,8 @@
 import React, {Component} from "react";
 import {Container, Row, Col, Image} from "react-bootstrap"
 import "./Projects.css"
+import imgReminder from "../../assets/imgs/reminder.gif"
+import imgRabbit from "../../assets/imgs/findRabbit.png"
 
 class Projects extends Component {
     render() {
@@ -10,7 +12,7 @@ class Projects extends Component {
                     <h1 className="text-center">Projects</h1>
                     <Row>
                         <Col xs={4}>
-                            <Image src="../../assets/imgs/reminder.gif" rounded />
+                            <Image src={imgReminder} rounded />
                         </Col>
                         <Col xs={8}>
                             <h1>Reminder(Android App)</h1>
@@ -42,7 +44,7 @@ class Projects extends Component {
                             <p>7)UI Test (Espresso)</p>
                         </Col>
                         <Col xs={4}>
-                            <Image src="../../assets/imgs/findRabbit.png" rounded/>
+                            <Image src={imgRabbit} rounded/>
                         </Col>
                     </Row>
                     <hr />
