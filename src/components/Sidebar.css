@@ -1,0 +1,28 @@
+#sidebar {
+    width: 8rem;
+    position: fixed;
+    z-index: 1;
+    top: 6rem;
+    right: 2rem;
+    background: #555;
+    overflow-x: hidden;
+}
+  
+#sidebar a {
+    padding: 1rem;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.2rem;
+    color: white;
+    display: block;  
+}
+  
+#sidebar a:hover {
+    background: #32b6f6;
+}
+
+@media only screen and (max-width: 1026px) {
+    #sidebar {
+        display: none;
+    }
+}

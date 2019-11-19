@@ -1,0 +1,15 @@
+.container{
+    padding-top: 3rem;
+    padding-bottom:5rem;
+}
+.container h1{
+    padding-bottom: 3rem;
+}
+
+/* bootstrap card */
+.card{
+    width: 20rem;
+    /* center card */
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+}

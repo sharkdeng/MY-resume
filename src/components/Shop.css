@@ -1,0 +1,28 @@
+#shop .card:hover {
+    box-shadow: 5px 10px 20px 1px rgb(0, 0, 0, 0.25)!important
+}
+
+#shop .card{
+    width: 20rem;
+    /* center card */
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+}
+
+#shop .card-img-top {
+    transform: scale(1);
+    transition: transform 0.5s ease;
+}
+#shop .card-img-top:hover {
+    transform: scale(1.2);
+}
+#shop .overflow {
+    overflow: hidden !important
+}
+
+
+
+
+
+
+

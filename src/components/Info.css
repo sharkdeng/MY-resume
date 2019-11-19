@@ -1,0 +1,18 @@
+#top {
+    margin: 0 auto;
+    float: none;
+    display: block;
+    width: 4rem;
+    height: 4rem;
+    background: orange;
+    opacity: 0.6;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    border-radius: 10%;
+    cursor: pointer;
+    text-decoration: none;
+}
+#top:hover {
+    opacity: 1;
+}
