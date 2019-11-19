@@ -29,16 +29,6 @@ class Educations extends Component {
                         <p>Canberra, Australia</p>
                         </Col>
                     </Row>
-                    <Row>
-                    <Col>
-                        <p>East China University of Political Science and Law</p>
-                        <p>2010/09 - 2014/07</p>
-                        </Col>
-                        <Col>
-                        <p>Bachelor of Law</p>
-                        <p>Shanghai, China</p>
-                        </Col>
-                    </Row>
                 </Container>
             </div>
         )
