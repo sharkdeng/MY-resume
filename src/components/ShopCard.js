@@ -28,7 +28,7 @@ class ShopCard extends Component {
         return (
             <Card className="text-center shadow">
                 <div className="overflow">
-                    <Card.Img variant="top" src={this.props.imgsrc}/>
+                    <Card.Img onClick={this.togglePopup.bind(this)} variant="top" src={this.props.imgsrc}/>
                 </div>
                 <Card.Body>
                     <Card.Title>{this.props.title}</Card.Title>
