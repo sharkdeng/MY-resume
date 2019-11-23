@@ -9,6 +9,7 @@ import ShopCard from "./ShopCard";
 
 
 class Shop extends Component {
+
     render() {
         return (
             <Container id="shop" className="purple-gradient">
